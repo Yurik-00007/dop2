@@ -13,7 +13,6 @@ type ShowType={
 function App() {
 
   const [show,setShow]=useState<ShowType[]>([])
-
     //автоматом при загрузки страницы
   /*useEffect(()=>{
     fetch('https://jsonplaceholder.typicode.com/todos')
